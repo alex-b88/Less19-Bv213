@@ -10,6 +10,7 @@ int main()
 {
     Department itstep;
     itstep.addItem(new Staff("Ivan", "Manager", 13000, 3000));
+    itstep.addItem(new Staff("Oleg", "Counter", 19000, 9000));
     itstep.addItem(new Outstaff("Petr", "Cleaner",6000));
     itstep.show();
 
