@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
-
+#include "Department.h"
+#include "Employee.h"
+#include "Outstaff.h"
+#include "Staff.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    Department itstep;
+    itstep.addItem(new Staff("Ivan", "Manager", 13000, 3000));
+    itstep.addItem(new Outstaff("Petr", "Cleaner",6000));
+    itstep.show();
+
+ //   std::cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
